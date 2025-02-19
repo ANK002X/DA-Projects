@@ -1,3 +1,6 @@
-# CourseraProjects
+# Data Analytics Projects
 
-This repo is specifically made for projects, submissions and other coursera related activities.
+This repository contains a collection of my data analytics projects. 
+
+## Table of Contents
+Coming Soon...
