@@ -36,13 +36,6 @@ def get_base64_encoded_image(image_path):
         encoded_string = base64.b64encode(image_file.read()).decode()
         return f"data:image/png;base64,{encoded_string}"
 
-try:
-    background_pattern = get_base64_encoded_image(imagepath)
-    print("Background pattern loaded successfully.")
-except FileNotFoundError:
-    background_pattern = None
-    print("Background pattern not found.")
-
 styles = {
     'title': {
         'textAlign': 'center',
@@ -68,7 +61,6 @@ styles = {
         'padding': '10px',
     },
     'app_container': {
-        'backgroundImage': f'url("{background_pattern}")',
         'backgroundSize': 'cover',
         'padding': '20px',
         'fontFamily': 'Roboto, sans-serif',
