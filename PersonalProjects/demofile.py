@@ -9,7 +9,6 @@ import base64
 # dataLink = "https://data.cityofchicago.org/resource/t7ek-mgzi.json?$order=id&$limit=100000&$offset=0"
 dataLink = "https://data.cityofchicago.org/resource/ijzp-q8t2.json?$order=date%20DESC&$limit=99999&$offset=0"
 
-imagepath = "G:\\Workspace\\Projects\\Github\\DA-Projects\\PersonalProjects\\moroccan-flower.png"
 try:
     data = pd.read_json(dataLink)
     print("Data loaded successfully.")
